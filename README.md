@@ -3,6 +3,8 @@
 # Static-Website-(Free to use)
 Static website developed using html5 css3 and javascript
 
+Take a look [Click Here For Live Preview](https://dennis-neduvelil.github.io/Static-Website/).
+
 Hey all i just made a static website using html css and javascript and its free to use anyone can download make changes and upload without any mention
 
 It incldes 4 pages
@@ -19,6 +21,8 @@ so our site is
 - [x] Animated
 - [x] Fully Functional
 - [x] Beautiful :stuck_out_tongue_winking_eye:
+
+#####Im using fontawesome and bootstrap library files with in the project instead you can use CDN Links according to your convenience.
 
 In contact us form i included a form submition and also written the codes(ajax) for handle post operation so you can use options like google sheets as your backend and feel dynamics in our static site :grin:
 
