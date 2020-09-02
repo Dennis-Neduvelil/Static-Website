@@ -17,8 +17,27 @@ and also includes some other libraries like AOS for animation and baguetteBox fo
 so our site is
 - [x] Fully Responsive
 - [x] Animated
-- [x] Fully Fully Functional
+- [x] Fully Functional
 - [x] Beautiful :stuck_out_tongue_winking_eye:
+
+In contact us form i included a form submition and also written the codes(ajax) for handle post operation so you can use options like google sheets as your backend and feel dynamics in our static site :grin:
+
+ <script>
+  const scriptURL = 'your post link'
+  const form = document.forms['gform']
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => $('#exampleModalCenter').modal({'show' : true}  ), $('#gform')[0].reset())
+      .catch(response => $('#exampleModalCenter2').modal({'show' : true}  ) , $('#gform')[0].reset() )
+  })
+</script>
+
+
+you can paste post code in the above script and enjoy dynamics :sunglasses:
+
+
+Hope you guys like this support me by star this project and follow me on github :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes:
 
 
 
