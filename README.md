@@ -22,7 +22,7 @@ so our site is
 
 In contact us form i included a form submition and also written the codes(ajax) for handle post operation so you can use options like google sheets as your backend and feel dynamics in our static site :grin:
 
-#### <script>
+##### <script>
 ###   const scriptURL = 'your post link'
 ###   const form = document.forms['gform']
 ###   form.addEventListener('submit', e => {
