@@ -22,7 +22,7 @@ so our site is
 - [x] Fully Functional
 - [x] Beautiful :stuck_out_tongue_winking_eye:
 
-#####Im using fontawesome and bootstrap library files with in the project instead you can use CDN Links according to your convenience.
+##### Im using fontawesome and bootstrap library files with in the project instead you can use CDN Links according to your convenience.
 
 In contact us form i included a form submition and also written the codes(ajax) for handle post operation so you can use options like google sheets as your backend and feel dynamics in our static site :grin:
 
