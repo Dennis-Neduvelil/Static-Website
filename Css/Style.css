@@ -1,0 +1,111 @@
+html {scroll-behavior: smooth;overflow-x: hidden !important;}
+body{margin: 0; padding: 0;font-family: 'Lato', sans-serif; overflow-x: hidden !important;}
+#ab-navbar{background-color: black; opacity: 80%;width: 100vw;}
+#ab-himg h1{color: white;margin-top: 150px; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);}
+#ab-himg p{color: white; opacity: 90%; font-style: italic;text-shadow: 1px 1px 1px #000000cc;}
+#ab-himg img{background-size: cover; height: 100vh; background-repeat:no-repeat; width:100%;}
+.centered {position: absolute; top: 35%; left: 50%;transform: translate(-50%, -50%);}
+.centered-con {position: absolute; top: 40%; left: 50%;transform: translate(-50%, -50%);}
+
+
+/* Ratings */
+.slideshow-container {position: relative;background: white; }
+.mySlides {display: none;padding: 40px;text-align: center;}
+.prev, .next {cursor: pointer;position: absolute;top: 50%;width: auto;margin-top: -30px;padding: 16px;
+color: #888;font-weight: bold;font-size: 20px;border-radius: 0 3px 3px 0;user-select: none;}
+.next {position: absolute;right: 0;border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);color: white;}
+q {font-style: italic;}
+.author {color: black;}
+
+
+/*Footer*/
+#footer{background-color: black; color: white; font-weight: 100;}
+#footer p{margin: 5px; font-size: 0.8rem;}
+#footer h4{margin-top: 10px;}
+#foot-hr{background-color:#57606f; margin-top: 10px;margin-bottom: 10px;}
+#footer a{color:whitesmoke; font-size: 0.8rem;}
+#footer h6{font-size: 0.8rem; margin-top: 10px;}
+#footer a:hover{color:#01a3a4;}
+
+
+/*Gallery*/
+.container.gallery-container {background-color: #fff;color: #35373a;min-height: 100vh;
+border-radius: 20px;box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);}
+.gallery-container h1 {text-align: center;margin-top: 60px;font-weight: bold;}
+.tz-gallery {padding: 40px;}
+
+
+/*img tag*/
+.tz-gallery .lightbox img {width: 100%;margin-bottom: 30px;transition: 0.2s ease-in-out;
+box-shadow: 0 2px 3px rgba(0,0,0,0.2);}
+.tz-gallery .lightbox img:hover {transform: scale(1.05);box-shadow: 0 8px 15px rgba(0,0,0,0.3);}
+.tz-gallery img {border-radius: 4px;}
+
+
+/*i frame*/
+.tz-gallery .lightbox iframe {width: 100%;margin-bottom: 30px;transition: 0.2s ease-in-out;
+box-shadow: 0 2px 3px rgba(0,0,0,0.2);}
+.tz-gallery .lightbox iframe:hover {transform: scale(1.05);box-shadow: 0 8px 15px rgba(0,0,0,0.3);}
+.tz-gallery iframe {border-radius: 4px;}
+
+
+/*Media Q*/
+.baguetteBox-button {background-color: transparent !important;}
+@media(max-width: 768px) {
+body {padding: 0;}
+.container.gallery-container {border-radius: 10px;}
+}
+#ab-gallery{margin-bottom: 30px;}
+
+
+/*ab-Home Services Parallax*/
+.parallax {display: flex;flex-direction: column;justify-content: center;align-items: center;text-align: center;
+height: 100vh;width: 100%;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;
+color: #fff;background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4));}
+
+
+/*J*/
+.jumbotron{margin-bottom: 0px;background-color: white;}
+
+
+/*Team*/
+#ab-team .card:hover{transform: scale(0.95); transition: 0.3s ease-in-out;}
+#ab-team .card a{color:#1e272e; margin: 5px;}
+#ab-team .card a:hover{color:black;}
+#ab-team .card span{font-style: italic;}
+#ab-team p{font-weight: 100;}
+#ab-img-2{color: white;} 
+#ab-team-card{margin-top: 50px; width:80%;}
+
+.ab-q-cnt:hover{transform: scale(1.03);  transition: 0.2s ease-in-out;}
+.ab-q-cnt2:hover{transform: scale(0.97); transition:  0.2s ease-in-out;}
+
+#ab-img-2 #ab-gal-nav{padding-top: 80px; padding-bottom: 80px; padding-left: 30px; padding-right: 30px;}
+#ab-hr{height: 1px; width :45%; background: teal; border-style: dotted; border-radius: 15px; }
+
+
+/*Contact*/
+#ab-map iframe{margin-bottom: 0px; padding-bottom: 0px;}
+#ab-contact a{ color: black; text-decoration: none;}
+#ab-contact a:hover{ color:darkslategray;}
+#ab-contact h6{letter-spacing:1.5 rem;}
+
+
+/*Services 2 */
+#ab-serv2 #ab-svg i{ padding-top: 80px; padding-bottom: 80px;}
+#ab-serv2  p{ padding-bottom: 60px; text-align: center;}
+#ab-serv2 .card{margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;}
+#ab-serv2 .card:hover{transform: scale(1.05); transition: 0.2s ease-in-out;}
+#ab-we { padding-bottom: 60px; }
+#ab-we .card{border: hidden;}
+
+#ab-snap-sec .row{width: 96%;}
+
+
+::-webkit-scrollbar{width: 4px; background-color:black}
+::-webkit-scrollbar-thumb{ background-image: linear-gradient(black,teal); border-radius: 7px;}
+
+#team22{ width: 7%; background-color: green; height: 3%; border: none; border-radius: 50px;}
+
+
