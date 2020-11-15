@@ -1,6 +1,6 @@
 > Pardon my English
 
-# Static-Website-(Free to use)
+# Static-Website
 Static website developed using html5 css3 and javascript
 
 Take a look [Click Here For Live Preview](https://dennis-neduvelil.github.io/Static-Website/).
